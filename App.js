@@ -19,15 +19,9 @@ import {
 } from 'react-native';
 
 import HomeScreen from './src/screens/home';
-import Post from './src/components/posts';
 import feed from '../Airbnb/assets/data/feed';
 import SearchResultsScreen from '../Airbnb/src/screens/SearchResults';
-
-
-const post1 = feed[0];
-const post2 = feed[1];
-const post3 = feed[2];
-
+import DestinationSearchScreen from '../Airbnb/src/screens/DestinationSearch';
 
 
 const App = () => {
@@ -40,17 +34,12 @@ const App = () => {
         
       {/* <HomeScreen /> */}
 
-      {/* <Post post={post1} />
-      
-      <Post post={post2} />
+      {/* <SearchResultsScreen /> */}
 
-      <Post post={post3} /> */}
-
-      <SearchResultsScreen />
+      <DestinationSearchScreen  />
 
 
 
-  
     </SafeAreaView>
   );
 };

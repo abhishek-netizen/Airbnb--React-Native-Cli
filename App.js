@@ -22,6 +22,8 @@ import HomeScreen from './src/screens/home';
 import feed from '../Airbnb/assets/data/feed';
 import SearchResultsScreen from '../Airbnb/src/screens/SearchResults';
 import DestinationSearchScreen from '../Airbnb/src/screens/DestinationSearch';
+import GuestsScreen from './src/screens/GuestScreens';
+
 
 
 const App = () => {
@@ -36,7 +38,11 @@ const App = () => {
 
       {/* <SearchResultsScreen /> */}
 
-      <DestinationSearchScreen  />
+      {/* <DestinationSearchScreen  /> */}
+
+      <GuestsScreen />
+
+
 
 
 
